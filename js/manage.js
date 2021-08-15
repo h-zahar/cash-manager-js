@@ -17,7 +17,7 @@ depositeClick.addEventListener('click', function() {
 
     const previousBalance = document.getElementById('balance');
 
-    const totalBalance = parseFloat(previousBalance.innerText) + depositeAmount;
+    const totalBalance = parseFloat(previousBalance.innerText) + newDeposite;
 
     const showBalance = document.getElementById('balance');
 
@@ -47,7 +47,7 @@ withdrawClick.addEventListener('click', function() {
 
     const previousBalance = document.getElementById('balance');
 
-    const totalBalance = parseFloat(previousBalance.innerText) - withdrawAmount;
+    const totalBalance = parseFloat(previousBalance.innerText) - newWithdraw;
 
     const showBalance = document.getElementById('balance');
 

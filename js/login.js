@@ -19,4 +19,4 @@ submitClicked.addEventListener('click', function () {
         window.alert('Try Again!');
     }
 
-})
+});
