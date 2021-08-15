@@ -9,8 +9,8 @@ submitClicked.addEventListener('click', function () {
     
     if (readEmail == 'abcd@gh.com' && readPassword == 'abcd@gh.com')
     {
-        locateEmail = '';
-        locatePassword = '';
+        locateEmail.value = '';
+        locatePassword.value = '';
         window.location.href = 'manage.html';
     }
 
